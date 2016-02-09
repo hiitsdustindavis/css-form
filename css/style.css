@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Learning-Curve-Pro';
+    src:  url('../Learning-Curve-Pro/LearningCurve_OT.otf') format('opentype');
+}
+
+
+
+
+body {
+  font-family: 'Learning-Curve-Pro';
+  background-image: url('../img/postcard.jpg');
+  background-repeat: no-repeat;
+}
+
+h1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 60px;
+
+}
+
+#message {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  font-size: 42px;
+}
+
+#recipient {
+  position: absolute;
+  top: 42%;
+  right: 200px;
+  text-align: right;
+}
+#sender {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  text-align: right;
+}
+
+textarea {
+  display: block;
+  width: 400px;
+  height: 300px;
+  background-color: transparent;
+  border: 3px solid #313D6D;
+
+}
+
+textarea:focus {
+  outline: none;
+}
+
+/*::-webkit-input-placeholder {
+    font-family: 'Learning-Curve-Pro';
+   font-size: 24px;
+   color: #313D6D;
+   text-align: left;
+   font-weight: bold;
+}*/
+
+input:focus {
+  outline:none;
+}
+
+
+#user-name,
+#email {
+  margin-top: 30px;
+  width: 300px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+#button {
+  position: absolute;
+  top: 60%;
+  right: 90px;
+}
+
+#button button {
+  margin-top: 30px;
+  padding: 12px 210px 12px 210px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  background-color: #313D6D;
+  color: #F2E1C3;
+}
