@@ -2,75 +2,63 @@
   font-family: 'Carrois Gothic';
     src:  url('../carrois-gothic/CarroisGothic-Regular.ttf') format('truetype');
 }
-
 .container {
-  font-family: 'Carrois Gothic';
-  max-width: 1200px;
-  margin: 0 auto;
-  position:relative;
+  width: 240px;
+  border: 2px solid black;
+  padding: 5px;
+  font-family:sans-serif;
+  letter-spacing: -.015em;
 }
 
-
+.smalltext {
+  font-size: 9px;
+}
+.bigtext {
+  font-size: 12px;
+}
+.textalign-right {
+  text-align: right;
+}
+.textalign-left {
+  text-align: left;
+}
 table {
   border-collapse: collapse;
-  border: 2px solid #FF8543;
-  margin: auto;
 }
-th, td {
-  width: 10rem;
-  height: 3.5rem;
-  text-align: center;
+td {
+  width: 145px;
+  height: 0;
+  /*border: 1px solid black;*/
+  margin: 0px;
 }
-tr {
-  border-bottom: 2px solid #FF8543;
-  border-top: 2px solid #FF8543;
-  border-collapse: collapse;
-  }
-
-tr:nth-child(even) {
-    /*background: #fcf2e8;*/
-
-    background-color: #fcf2e8;
-    -webkit-background-blend-mode: multiply;
+.borderbottom {
+  border-bottom: 1px solid black;
+  /*border-collapse: collapse;*/
 }
-tr:nth-child(odd) {
-    background: #ffd9b3;
+.big-borderbottom {
+  border-bottom: 4px solid black;
+  /*border-collapse: collapse;*/
 }
-tbody tr th:first-child {
-  text-align: left;
-  padding-left: 5px;
+.huge-borderbottom {
+  border-bottom: 11px solid black;
+  /*border-collapse: collapse;*/
 }
-
 h1 {
-  text-align: center;
-  font-size: 36px;
-  letter-spacing: .01em;
+  margin: 0px;
 }
-
-thead th {
-  background-color: #FF8543;
-  font-size: 18px;
-  /*font-style: italic;*/
-  color: #fcf2e8;
+p {
+  margin: 1px 0px 0px 5px;
 }
-.gif {
-  border-radius: 50%;
-  border: 3px solid #FF8543;
-  width: 600px;
-  height: 600px;
+.big-hr {
+  height: 10px;
+  background-color: black;
+  margin: 2px 0px 2px 0px;
 }
-#nickpic1 {
-  position: absolute;
-  top: 10px;
-  left: 80px
+.sml-hr {
+  height: 4px;
+  background-color: black;
+  margin: 2px 0px 2px 0px;
 }
-#nickpic2 {
-  top: 10px;
-  position: absolute;
-  right: 80px
-}
-#nickpic3 {
-  bottom: 25px;
-  position: absolute;
-  left: 50px;
+.tableindent {
+  margin-left: 15px;
 }
